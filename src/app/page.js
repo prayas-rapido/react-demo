@@ -1,3 +1,4 @@
+import { UserCard } from "./card/UserCard";
 import { Greetings } from "./greetings";
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
 
   return (
     <div>
-      {names.map((name, index) => <Greetings key={index} name={name} />)}
+      {/* {names.map((name, index) => <Greetings key={index} name={name} />)} */}
+      <UserCard />
     </div>
   );
 }
