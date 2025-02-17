@@ -1,4 +1,5 @@
 import { UserCard } from "./card/UserCard";
+import { Counter } from "./counter/counter";
 import { Greetings } from "./greetings";
 
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
   return (
     <div>
       {/* {names.map((name, index) => <Greetings key={index} name={name} />)} */}
-      <UserCard />
+      {/* <UserCard /> */}
+      <Counter/>
     </div>
   );
 }
